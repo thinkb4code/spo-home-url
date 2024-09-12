@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="HomeUrlRedirect"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="6dd88a82-f0df-471d-9737-7af76fa5d4bd"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

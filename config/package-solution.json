@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "App Launcher - Home Link Update",
+    "id": "84e64f1b-b37a-41f2-9a71-8f84244c1205",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "App Launcher - Home Link Update"
+      },
+      "longDescription": {
+        "default": "App Launcher - Home Link Update"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "App Launcher - Home Link Update",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "8bb04898-5e2d-4ad0-a5d3-e508e52cafef",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spo-home-url.sppkg"
+  }
+}
