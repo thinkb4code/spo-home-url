@@ -26,7 +26,7 @@ export default class HomeUrlRedirectApplicationCustomizer
   public async onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
 
-    const url: string = `https://bannerbankcorp.sharepoint.com/sites/mybannernetdev/siteassets/config.json`;
+    const url: string = `https://bannerbankcorp.sharepoint.com/sites/mybannernetdev/siteassets/config.json`; 
     
     await this.context.spHttpClient.get(url, SPHttpClient.configurations.v1).then(res => res.json()).then(data => {
       debugger;
